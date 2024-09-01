@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .services {
+    background-color: #222;
+}
+.services h2{
+    color:white;
+    text-align: center;
+}
+
+
+.services .service {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.services .service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.services .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.services .service p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+    </style>
+</head>
+<body>
+    <section id="services" class="section services">
+        <h2 >Our Services</h2>
+        <div class="service">
+            <h3>Flight Booking</h3>
+            <p>Reservation of international flights, including options for economy, business, and first class.
+                Assistance with selecting flights based on budget, timing, and preferred airlines..</p>
+        </div>
+        <div class="service">
+            <h3>Accommodation Arrangement</h3>
+            <p>Booking hotels, resorts, hostels, or vacation rentals according to the traveler’s preferences and budget.
+                Offering special deals, upgrades, or accommodation packages.</p>
+        </div>
+        <div class="service">
+            <h3>Tour Guide Services</h3>
+            <p>Providing access to local tour guides for city tours, cultural experiences, and sightseeing.
+                Offering multi-language guide services depending on the destination.</p>
+        </div>
+        <div class="service">
+            <h3>Visa and Travel Documentation Assistance</h3>
+            <p>Guidance on visa application processes, including required documents, fees, and timelines.</p>
+        </div>
+    </section>
+
+</body>
+</html>

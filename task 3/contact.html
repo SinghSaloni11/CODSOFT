@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        .contact {
+    background-color:lightslategray;
+    color:white;
+    text-align: center;
+    height: 10000px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #bbb;
+}
+
+.contact button {
+    width: 104%;
+    padding: 12px;
+    background-color:indianred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition:0.4s;
+}
+
+.contact button:hover {
+    background:transparent;
+    border:1px solid indianred;
+}
+
+    </style>
+</head>
+<body>
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+  
+</body>
+</html>
